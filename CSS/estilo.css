@@ -1,0 +1,22 @@
+/* quanto maior o indice de Z, mais na frente o elemento está e quanto menor, mais atrás ele está  */
+/* nota: quando eu giro uma div, eu giro o conteúdo dela em si e não a div em si  */
+body{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: #e3e3e3; */
+}
+.mainHeader{
+    width: 100%;
+    background-color: #8356c6;
+    height: auto;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.logo{
+    transform: rotate(45deg);
+    height: auto;
+    width: 7%;
+    margin-left: 2em;
+    
+}
