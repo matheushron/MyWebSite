@@ -1,37 +1,93 @@
-/* quanto maior o indice de Z, mais na frente o elemento está e quanto menor, mais atrás ele está  */
-/* nota: quando eu giro uma div, eu giro o conteúdo dela em si e não a div em si  */
-@media only screen and (min-width: 200px){
 
-}
-@media only screen and (min-width: 600px){
-    
-}
-@media only screen and (min-width: 1100px){
-    body{
-        margin: 0%;
-        padding: 0%;
-        /* background-color: #e3e3e3; */
-    }
-    .mainHeader{
-        width: 100%;
-        background-color: #8356c6;
-        height: auto;
-        display: flex;
-        padding-top: 1em;
-        padding-bottom: 1em;
-    }
-    .logo{
-        transform: rotate(45deg);
-        height: auto;
-        width: 7%;
-        margin-left: 2em;
-        
-    }
-    .titulo{
-        position: relative; left: 17%; top: 1em;
-        font-size: 25px;
-        font-family: 'Source Code Pro', monospace;
-        font-weight: 900;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Archivo Black'; */
+}
+
+.landing{
+    min-height: 100vh;
+    background: url("/images/back.png");
+    background-size: cover;
+    padding: 0rem 5rem;
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 0px;
+}
+
+.nav-links{
+    color: white;
+    display: flex;
+    list-style: none;
+}
+.nav-links li{
+    padding-left: 7rem;
+    font-size: 25px;
+}
+
+#logo{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Archivo Black'; */
+    font-family: Archi;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.big-text{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    right: 20%;
+    /* transform:translate(-50%,-30%); */
+    font-size: 7rem;
+}
+
+.intro{
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    background-color: rgb(5, 46, 141);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.intro-text{
+    color: rgb(5, 45, 141);
+    font-family: 'Archivo Black';
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 3rem;
+}
+
+.hide{
+    background: black;
+    overflow: hidden;
+}
+
+.hide span{
+    transform: translateY(100%);
+    display: inline-block;
+}

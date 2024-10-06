@@ -1,0 +1,75 @@
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/CSS/estilo.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Ocean Systems</title>
+
+
+
+
+
+
+<script src="/JS/main.js"></script>
+<script>
+    AOS.init();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* quanto maior o indice de Z, mais na frente o elemento está e quanto menor, mais atrás ele está  */
+/* nota: quando eu giro uma div, eu giro o conteúdo dela em si e não a div em si  */
+@media only screen and (min-width: 200px){
+
+}
+@media only screen and (min-width: 600px){
+    
+}
+@media only screen and (min-width: 1100px){
+    /* body{
+        margin: 0%;
+        padding: 0%;
+    }
+    .mainHeader{
+        width: 100%;
+        background-color: #4896efaa;
+        height: auto;
+        display: flex;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .esquerdaHeader{
+        width: 100%;
+    }
+    .itemNav{
+        color: azure;
+        text-decoration: none;
+        padding-left: 17%;
+
+    } */
+
+}
+
+
+
+
